@@ -416,6 +416,56 @@
             font-weight: bold;
         }
         
+        .smart-farming-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .smart-feature {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+            border-right: 4px solid var(--secondary);
+        }
+        
+        .smart-feature h4 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .annual-costs {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            padding: 2rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+        }
+        
+        .cost-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .cost-item:last-child {
+            border-bottom: none;
+        }
+        
+        .warning-box {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+        
         @media (max-width: 768px) {
             html {
                 font-size: 13px;
@@ -758,6 +808,187 @@
         </div>
     </section>
 
+    <!-- قسم الإدارة الزراعية الذكية الجديد -->
+    <section id="smart-farming">
+        <div class="container">
+            <h2 class="section-title">الإدارة الزراعية الذكية</h2>
+            <div class="card">
+                <h3>📊 نظام متكامل لإدارة العمليات الزراعية بدقة</h3>
+                
+                <div class="smart-farming-features">
+                    <div class="smart-feature">
+                        <h4><span style="color: #27ae60;">🌱</span> تتبع دورة الزراعة</h4>
+                        <ul>
+                            <li>تسجيل تاريخ الزراعة الدقيق</li>
+                            <li>تتبع مراحل النمو المختلفة</li>
+                            <li>تحديد مواعيد الفلاحة والخدمة</li>
+                            <li>تسجيل مواعيد التقليم (للزراعات الشجرية)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="smart-feature">
+                        <h4><span style="color: #27ae60;">💧</span> إدارة الري والمياه</h4>
+                        <ul>
+                            <li>تسجيل مواعيد السقاية</li>
+                            <li>تحديد كميات المياه المستخدمة</li>
+                            <li>تتبع كمية الأمطار الهاطلة</li>
+                            <li>نظام تنبيهات للري</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="smart-feature">
+                        <h4><span style="color: #27ae60;">🧪</span> إدارة التسميد والمبيدات</h4>
+                        <ul>
+                            <li>تسجيل مواعيد التسميد</li>
+                            <li>تحديد نوعية الأسمدة المستخدمة</li>
+                            <li>تسجيل كميات المبيدات</li>
+                            <li>تتبع فعالية كل مادة</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="smart-feature">
+                        <h4><span style="color: #27ae60;">🔍</span> نظام بحث وفلترة متقدم</h4>
+                        <ul>
+                            <li>بحث متقدم في جميع الحقول</li>
+                            <li>فلترة حسب نوع المحصول</li>
+                            <li>فلترة حسب حالة الزراعة</li>
+                            <li>تقارير عن فعالية كل عملية</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="note-box">
+                    <p><strong>ملاحظة تقنية:</strong> النظام مصمم ليكون مرنًا بحيث يمكن تخصيص العمليات الزراعية حسب نوع المحصول، فبعض المحاصيل تحتاج تقليمًا والبعض الآخر لا، وبعضها يحتاج تسميدًا معينًا حسب طبيعة التربة والموسم.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+    <div class="container">
+        <h2 class="section-title">عرض حصري وشامل</h2>
+        
+        <div class="pricing-cards">
+            <div class="pricing-card popular" style="max-width: 600px; margin: 0 auto;">
+                <div class="pricing-header">
+                    <h3>الباقة الشاملة لإدارة المزرعة</h3>
+                    <p style="opacity: 0.9; margin-top: 0.5rem;">كل ما تحتاجه لإدارة مزرعتك بكفاءة</p>
+                </div>
+                <div dir="ltr" class="price">$550 <sup style="font-size: 10px;"><del>650$</del> /-16%</sup></div>
+                <div style="background: #f8f9fa; padding: 1rem; margin: 1rem; border-radius: 8px;">
+                    <p style="color: #27ae60; font-weight: bold; margin: 0;">📱 + 🌐 نظام متكامل</p>
+                </div>
+                
+                <ul class="pricing-features">
+                    <li><strong>تطبيق جوال متكامل:</strong> React Native (iOS + Android)</li>
+                    <li><strong>خادم احترافي:</strong> Node.js مع MongoDB</li>
+                    <li><strong>هيكل بيانات شامل:</strong> 8 جداول رئيسية مع علاقات كاملة</li>
+                    <li><strong>نظام مالي متقدم:</strong> دعم 3 عملات (USD، SYP_NEW، SYP_OLD)</li>
+                    <li><strong>إدارة محاصيل مرنة:</strong> محاصيل موسمية ويومية مع متابعة كاملة</li>
+                    <li><strong>نظام عمال ذكي:</strong> أجور شهرية/أسبوعية/يومية/ساعية</li>
+                    <li><strong>تتبع النفقات:</strong> نفقات عامة ومخصصة لكل محصول</li>
+                    <li><strong>إدارة المبيعات:</strong> بيع كلي، بالكيلو، يومي مع حساب الهدايا</li>
+                    <li><strong>مشاركة الشركاء:</strong> وصول آمن للشريك من أي مكان</li>
+                    <li><strong>إدارة زراعية ذكية:</strong> تتبع الري، التسميد، التقليم، الأمطار</li>
+                    <li><strong>تقارير متقدمة:</strong> أرباح/خسائر كل محصول وتقارير العمال</li>
+                    <li><strong>أمان كامل:</strong> تسجيل دخول آمن مع صلاحيات مختلفة</li>
+                    <li><strong>استضافة احترافية:</strong> VPS مع SSL لمدة سنة كاملة</li>
+                    <li><strong>دعم فني:</strong> متابعة وإصلاح أعطال لمدة شهرين</li>
+                    <li><strong>تسليم سريع:</strong> خلال 8-10 أسابيع (شهرين إلى شهرين ونصف)</li>
+                </ul>
+                
+                <div style="padding: 0 1.5rem 1.5rem;">
+                    <a href="https://wa.me/+963998025766" target="_blank" rel="noopener" class="btn" style="width: 100%; text-align: center; font-size: 1.2rem;">
+                        احجز النظام الآن
+                    </a>
+                    <p style="text-align: center; margin-top: 1rem; color: #666; font-size: 0.9rem;">
+                        ✅ سعر ثابت يشمل كل الميزات بدون مفاجآت
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" style="margin-top: 2rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+            <h3>ماذا تحصل عليه مقابل $550؟</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
+                <div style="text-align: center;">
+                    <div style="font-size: 2rem; color: #27ae60; margin-bottom: 0.5rem;">📊</div>
+                    <p><strong>مراقبة دقيقة</strong><br>لكل عملية في المزرعة</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="font-size: 2rem; color: #27ae60; margin-bottom: 0.5rem;">💼</div>
+                    <p><strong>إدارة مالية</strong><br>ثلاث عملات مع تحويل آلي</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="font-size: 2rem; color: #27ae60; margin-bottom: 0.5rem;">🤝</div>
+                    <p><strong>شراكة آمنة</strong><br>للشريك لمتابعة كل التفاصيل</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="font-size: 2rem; color: #27ae60; margin-bottom: 0.5rem;">📈</div>
+                    <p><strong>تقارير ذكية</strong><br>لاتخاذ قرارات مربحة</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- قسم التكاليف السنوية والتجديد الجديد -->
+    <section id="annual-costs">
+        <div class="container">
+            <h2 class="section-title">التكاليف السنوية والتجديد</h2>
+            <div class="card">
+                <h3>💰 نظام التجديد والاستمرارية</h3>
+                
+                <div class="annual-costs">
+                    <h4>التكاليف السنوية المتوقعة بعد السنة الأولى</h4>
+                    
+                    <div class="cost-item">
+                        <div>
+                            <h5>استضافة السيرفر</h5>
+                            <p>VPS احترافي مع SSL وشهادة أمان</p>
+                        </div>
+                        <div style="text-align: left;">
+                            <strong>$120/سنة</strong>
+                            <p style="font-size: 0.9rem; color: #666;">($10 شهرياً)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="cost-item">
+                        <div>
+                            <h5>الدعم الفني والتحديثات</h5>
+                            <p>إصلاح الأعطال والتحديثات البسيطة</p>
+                        </div>
+                        <div style="text-align: left;">
+                            <strong>$180/سنة</strong>
+                            <p style="font-size: 0.9rem; color: #666;">($15 شهرياً)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="cost-item" style="background-color: #e8f5e9; border-radius: 5px; padding: 1rem;">
+                        <div>
+                            <h5>المجموع السنوي</h5>
+                            <p>جميع الخدمات مجتمعة</p>
+                        </div>
+                        <div style="text-align: left;">
+                            <strong style="font-size: 1.2rem;">$300/سنة</strong>
+                            <p style="font-size: 0.9rem; color: #666;">($25 شهرياً)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="note-box">
+                    <p><strong>ملاحظة مهمة:</strong> السنة الأولى من الاستضافة مشمولة في سعر التطوير ($550). بعد انتهاء السنة الأولى، سيتم تجديد الخدمات تلقائياً ما لم يخطر العميل بغير ذلك.</p>
+                </div>
+                
+                <div class="warning-box">
+                    <h4>⚡ تنبيه هام</h4>
+                    <p>سيتم تجديد الاشتراك السنوي تلقائياً بعد انتهاء السنة الأولى من تاريخ التسليم النهائي للتطبيق. سيتم إرسال إشعار للعميل قبل شهر من تاريخ التجديد.</p>
+                    <p style="margin-top: 0.5rem;"><strong>لإلغاء التجديد التلقائي:</strong> يجب إبلاغنا كتابياً قبل 15 يوماً على الأقل من تاريخ التجديد.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="technical-details">
         <div class="container">
             <h2 class="section-title">التفاصيل التقنية</h2>
@@ -822,7 +1053,7 @@
         
         // تأثيرات بسيطة عند التمرير
         window.addEventListener('scroll', function() {
-            const cards = document.querySelectorAll('.card, .feature-item, .pricing-card, .benefit-card');
+            const cards = document.querySelectorAll('.card, .feature-item, .pricing-card, .benefit-card, .smart-feature');
             cards.forEach(card => {
                 const cardTop = card.getBoundingClientRect().top;
                 const windowHeight = window.innerHeight;
@@ -835,7 +1066,7 @@
         });
         
         // تهيئة العناصر للتحريك
-        document.querySelectorAll('.card, .feature-item, .pricing-card, .benefit-card').forEach(el => {
+        document.querySelectorAll('.card, .feature-item, .pricing-card, .benefit-card, .smart-feature').forEach(el => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(20px)';
             el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';

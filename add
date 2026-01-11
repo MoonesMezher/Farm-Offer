@@ -1,66 +1,1 @@
-<section id="pricing">
-    <div class="container">
-        <h2 class="section-title">عرض حصري وشامل</h2>
-        
-        <div class="pricing-cards">
-            <div class="pricing-card popular" style="max-width: 600px; margin: 0 auto;">
-                <div class="pricing-header">
-                    <h3>الباقة الشاملة لإدارة المزرعة</h3>
-                    <p style="opacity: 0.9; margin-top: 0.5rem;">كل ما تحتاجه لإدارة مزرعتك بكفاءة</p>
-                </div>
-                <div class="price">$550</div>
-                <div style="background: #f8f9fa; padding: 1rem; margin: 1rem; border-radius: 8px;">
-                    <p style="color: #27ae60; font-weight: bold; margin: 0;">📱 + 🌐 نظام متكامل</p>
-                </div>
-                
-                <ul class="pricing-features">
-                    <li><strong>تطبيق جوال متكامل:</strong> React Native (iOS + Android)</li>
-                    <li><strong>خادم احترافي:</strong> Node.js مع MongoDB</li>
-                    <li><strong>هيكل بيانات شامل:</strong> 8 جداول رئيسية مع علاقات كاملة</li>
-                    <li><strong>نظام مالي متقدم:</strong> دعم 3 عملات (USD، SYP_NEW، SYP_OLD)</li>
-                    <li><strong>إدارة محاصيل مرنة:</strong> محاصيل موسمية ويومية مع متابعة كاملة</li>
-                    <li><strong>نظام عمال ذكي:</strong> أجور شهرية/أسبوعية/يومية/ساعية</li>
-                    <li><strong>تتبع النفقات:</strong> نفقات عامة ومخصصة لكل محصول</li>
-                    <li><strong>إدارة المبيعات:</strong> بيع كلي، بالكيلو، يومي مع حساب الهدايا</li>
-                    <li><strong>مشاركة الشركاء:</strong> وصول آمن للشريك من أي مكان</li>
-                    <li><strong>تقارير متقدمة:</strong> أرباح/خسائر كل محصول وتقارير العمال</li>
-                    <li><strong>أمان كامل:</strong> تسجيل دخول آمن مع صلاحيات مختلفة</li>
-                    <li><strong>استضافة احترافية:</strong> VPS مع SSL لمدة سنة كاملة</li>
-                    <li><strong>دعم فني:</strong> متابعة وإصلاح أعطال لمدة شهرين</li>
-                    <li><strong>تسليم سريع:</strong> خلال 6-8 أسابيع (شهر ونصف إلى شهرين)</li>
-                </ul>
-                
-                <div style="padding: 0 1.5rem 1.5rem;">
-                    <a href="#contact" class="btn" style="width: 100%; text-align: center; font-size: 1.2rem;">
-                        احجز النظام الآن
-                    </a>
-                    <p style="text-align: center; margin-top: 1rem; color: #666; font-size: 0.9rem;">
-                        ✅ سعر ثابت يشمل كل الميزات بدون مفاجآت
-                    </p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="card" style="margin-top: 2rem; max-width: 800px; margin-left: auto; margin-right: auto;">
-            <h3>ماذا تحصل عليه مقابل $550؟</h3>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
-                <div style="text-align: center;">
-                    <div style="font-size: 2rem; color: #27ae60; margin-bottom: 0.5rem;">📊</div>
-                    <p><strong>مراقبة دقيقة</strong><br>لكل عملية في المزرعة</p>
-                </div>
-                <div style="text-align: center;">
-                    <div style="font-size: 2rem; color: #27ae60; margin-bottom: 0.5rem;">💼</div>
-                    <p><strong>إدارة مالية</strong><br>ثلاث عملات مع تحويل آلي</p>
-                </div>
-                <div style="text-align: center;">
-                    <div style="font-size: 2rem; color: #27ae60; margin-bottom: 0.5rem;">🤝</div>
-                    <p><strong>شراكة آمنة</strong><br>للشريك لمتابعة كل التفاصيل</p>
-                </div>
-                <div style="text-align: center;">
-                    <div style="font-size: 2rem; color: #27ae60; margin-bottom: 0.5rem;">📈</div>
-                    <p><strong>تقارير ذكية</strong><br>لاتخاذ قرارات مربحة</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
